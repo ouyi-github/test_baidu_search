@@ -19,8 +19,8 @@ class TestBaiduSearch:
         now_dir = os.getcwd()
         while True:
             now_dir = os.path.split(now_dir)
-            if now_dir[1] == 'test_baidu_search_nogit':
-                now_dir = os.path.join(now_dir[0], 'test_baidu_search_nogit')
+            if now_dir[1] == 'test_baidu_search':
+                now_dir = os.path.join(now_dir[0], 'test_baidu_search')
                 break
             now_dir = now_dir[0]
         return now_dir
